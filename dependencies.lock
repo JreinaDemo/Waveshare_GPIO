@@ -1,0 +1,17 @@
+dependencies:
+  idf:
+    source:
+      type: idf
+    version: 5.4.0
+  lvgl/lvgl:
+    dependencies: []
+    source:
+      path: D:\Documents\MyWorkspaces\Waveshare\05_IO_Test\components\lvgl__lvgl
+      type: local
+    version: 8.3.11
+direct_dependencies:
+- idf
+- lvgl/lvgl
+manifest_hash: 75c53fd6d6637ca2251b924dfd2436e8e476e7e0f0824fc436d3048814da82fe
+target: esp32s3
+version: 2.0.0
